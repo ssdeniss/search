@@ -1,0 +1,26 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input,
+input:focus{
+  height: 34px;
+  width: 500px;
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  outline: none;
+}
+.loader {
+  margin: 0 auto;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 20px;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 10px;
+}

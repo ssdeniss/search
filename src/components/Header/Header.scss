@@ -1,0 +1,18 @@
+.header{
+    background: #2B303B;
+    &__content{
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+    }
+    &__links{
+        display: flex;
+        gap: 20px;
+    }
+    &__links-item{
+        cursor: pointer;
+
+    }
+}
