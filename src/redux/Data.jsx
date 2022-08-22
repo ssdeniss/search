@@ -16,10 +16,12 @@ const Data = () => {
         dispatch(setProduct(products))
     }, [products])
     const fetchProducts = async () => {
+        document.body.style.overflow = "hidden"
         setLoading(true)
         setError('')
         const response = await axios.get('https://fakestoreapi.com/products')
         setProducts(response)
+        document.body.style.overflow = "auto"
         setLoading(false)
     }
 
@@ -30,7 +32,7 @@ const Data = () => {
                     <BallTriangle
                         height="80"
                         width="80"
-                        color='green'
+                        color='#2B303B'
                     />
                 </div>
             }

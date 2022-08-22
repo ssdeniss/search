@@ -1,8 +1,8 @@
-body{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 input,
-input:focus{
+input:focus {
   height: 34px;
   width: 500px;
   padding: 0px 20px 0px 20px;
@@ -13,11 +13,12 @@ input:focus{
   outline: none;
 }
 .loader {
-  margin: 0 auto;
   position: fixed;
-  right: 0;
-  left: 0;
-  top: 20px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container {
   max-width: 1300px;
