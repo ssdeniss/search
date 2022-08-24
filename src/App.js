@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home/Home';
 import Search from './components/pages/Search/Search';
-import Data from "./redux/Data"
+import Data from './store/Data';
 import Header from './components/Header/Header';
 
 import './styles/Styles.scss';

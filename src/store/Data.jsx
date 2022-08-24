@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { BallTriangle } from 'react-loader-spinner'
 import { useDispatch } from 'react-redux'
-import { setProduct } from './ProductReducer'
+import { setProduct } from './reducer/ProductReducer'
 
 const Data = () => {
     const [products, setProducts] = useState([])
